@@ -1,0 +1,35 @@
+.for-heroleft{
+    padding-top:2%;
+}
+.for-heroleft h1{
+    font-size: 250%;
+}
+.for-heroleft p{
+    font-size: 100%;
+}
+@media only screen and (max-width:600px) {
+    .for-heroleft{
+        width:100%;
+        background-color: black;
+    
+    }
+    .hero-left{
+        width:100%;
+        background-color: black;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .for-heroleft h1{
+        width:70%;
+      font-size: 40px;
+      text-align: center;
+    }
+    .for-heroleft p{
+        font-size: 20px;
+        text-align: center;
+        width:70%;
+    }
+
+  }

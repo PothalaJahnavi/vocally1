@@ -1,0 +1,24 @@
+.footer{
+    background-color: rgb(34, 32, 32);
+    height: 20vh;
+    color: white;
+    width:100%;
+}
+.for-foot-icons{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+}
+.last-icons{
+  margin-left:60%;
+}
+@media only screen and (max-width:600px) {
+    .for-foot-icons{
+        display: block;
+    }
+    .last-icons{
+        margin-left:30%;
+      }
+      .footer{
+        width:125%;
+      }
+ }

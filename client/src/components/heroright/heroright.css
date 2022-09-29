@@ -1,0 +1,17 @@
+.first-image{
+    margin-top: 6%;
+    width:550px;
+    height:400px;
+}
+@media only screen and (max-width:600px) {
+    .right-image{
+       background-color: black;
+       width: 100%;
+    }
+    .first-image{
+        margin-top: 6%;
+        width:400px;
+        height:400px;
+    }
+
+  }

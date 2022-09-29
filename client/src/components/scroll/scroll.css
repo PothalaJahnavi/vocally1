@@ -1,0 +1,24 @@
+.for-scroll{
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(550px,1fr));
+}
+
+.scroll-icon{
+   margin-left:100%;
+}
+.head-icons{
+    margin-left:60%;
+}
+@media only screen and (max-width:600px) {
+    .scroll-icon{
+        margin-left:15%;
+     }
+     .head-icons{
+         margin-left:10%;
+     }
+     .for-scroll{
+        width:150%;
+        background-color: black;
+     }
+ }

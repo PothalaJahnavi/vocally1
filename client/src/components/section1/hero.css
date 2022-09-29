@@ -1,0 +1,28 @@
+.main{
+    height:100vh;
+    width: 110%;
+    color:white;
+    margin-top: 0;
+    background-color: black;
+
+}
+.for-hero{
+    margin-left: 5%;
+    margin-right: 5%;
+    /* position:relative; */
+}
+.hero{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+}
+@media only screen and (max-width:600px) {
+     .main{
+        width:100%;
+        height:120vh;
+        background-color: black;
+     }
+     .for-hero{
+        background-color: black;
+        width:100%;
+     }
+  }

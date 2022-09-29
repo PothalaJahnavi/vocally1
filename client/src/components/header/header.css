@@ -1,0 +1,41 @@
+.for-header{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+.nav{
+        /* margin-top: 2%; */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    display:flex;
+   
+}
+.nav-bar li{
+    padding-right: 5%;
+    list-style: none;
+}
+.download-button{
+    border-radius:30px;
+    padding:2% 1%;
+    width:250px;
+    color:white;
+    border:1px solid rgb(141, 135, 135);
+    background-color: black;
+}
+.nav-brand{
+    font-size: 30px;
+}
+@media only screen and (max-width:600px) {
+    .nav{
+        display: block;
+    }
+    .for-header{
+        width:120%;
+        background-color: black;
+    }
+    .nav-bar{
+        display:none;
+    }
+ }
